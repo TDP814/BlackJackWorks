@@ -75,7 +75,7 @@ class Deck {
 
         public void draw(Graphics g, int y) {
                 for (int i = 0; i < entireDeck.length; i++) {
-                        entireDeck[i].draw(g, new Rectangle(10+(20*i),50+(100*y),40,60));
+                        entireDeck[i].draw(g, new Rectangle(15+(20*i),55+(100*y),45,65));
                 }
         }
 }
