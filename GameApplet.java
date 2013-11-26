@@ -42,7 +42,6 @@ public class GameApplet extends Applet implements ActionListener {
                 windowpanel.setLayout(new BorderLayout());
                 drawButtons();
                 drawCardPanels();
-                //cardDebugging();
                 drawBetPanel();
                 add(windowpanel);
                 betting();
@@ -239,10 +238,6 @@ public class GameApplet extends Applet implements ActionListener {
                         outcome.setText("Push");
                 }
                 setButtons(false);
-        }
-
-        public void cardDebugging() {
-                this.game.addCard(this.game.deck().drawCard(), hp, 1);
         }
 
         public void resetGame() {
